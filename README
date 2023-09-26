@@ -1,0 +1,7 @@
+$ vim Makefile
+V:s/org.krzysckh.none/your.package.name/
+:wq
+$ make init
+$ vim src/your/package/name/Main.java
+...
+$ make run
