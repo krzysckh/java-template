@@ -5,4 +5,4 @@ run: build
 init:
 	mkdir -p src/`echo ${package} | tr '.' '/'` bin/ lib/
 build:
-	javac -d bin/ -sourcepath src/ -classpath bin/ src/org/krzysckh/*/Main.java
+	javac -d bin/ -sourcepath src/ -classpath bin/ src/*/*/*/*.java

@@ -1,3 +1,7 @@
+???
+http://blog.z3bra.org/2013/09/java-without-eclipse.html
+                              ^- this but less sophisticated
+
 $ vim Makefile
 V:s/org.krzysckh.none/your.package.name/
 :wq
