@@ -8,4 +8,7 @@ V:s/org.krzysckh.none/your.package.name/
 $ make init
 $ vim src/your/package/name/Main.java
 ...
-$ make run
+
+$ make run     # runs the thing
+$ make build   # builds classes of the thing
+$ make jar     # builds a jar of the thing, and puts it into bin/
